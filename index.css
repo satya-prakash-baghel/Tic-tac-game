@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+#h1 {
+    color: rgb(116, 24, 158);
+    text-decoration: wavy underline rgb(116, 24, 158);
+    font-family: Brush Script MT, Cursive;
+    font-size: 3rem;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img {
+    height: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box1 {
+    height: 63vmin;
+    width: 32vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(208, 46, 233, 0.5)), url(image/linux.gif);
+}
+
+#box {
+    height: 63vmin;
+    width: 90vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+#start-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #59aa17;
+    color: #111010;
+    border-radius: 1rem;
+    border: none;
+}
+
+#myDIV {
+    height: 100%;
+    width: 100%;
+    background: red;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
